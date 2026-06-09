@@ -1,0 +1,19 @@
+{
+  "name": "docker-node-api",
+  "version": "1.0.0",
+  "description": "Minimal Node.js 22 + Fastify REST API starter",
+  "type": "module",
+  "main": "src/server.js",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "license": "MIT",
+  "author": "Lê Đức Minh",
+  "dependencies": {
+    "fastify": "^5.2.0"
+  }
+}
